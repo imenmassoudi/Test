@@ -1,0 +1,4 @@
+<h1>Films à voir aujourd'hui</h1>
+<ng-container *ngFor="let t of films">
+    <app-film [titre]="t.titre" [affiche]="t.affiche" [duree]="t.duree"></app-film>
+</ng-container>
